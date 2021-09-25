@@ -77,6 +77,10 @@ body {
   padding: 0 24px;
   margin: 150px auto;
   margin-bottom: 0;
+  
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
 }
 
 .intro-section img {
@@ -183,12 +187,21 @@ body {
   margin-bottom: 0;
 }
 
+.shadows {
+  text-shadow: 0.025em 0.025em 0 yellow, 0.045em 0.045em 0 blue,
+    0.075em 0.075em 0 red, 0.1em 0.1em 0 black;
+}
+
 .education {
   padding: 32px 42px;
   border-radius: 5px;
 
   background-color: #f9fafb;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
 }
+
 
 .education:not(:last-child) {
   margin-bottom: 32px;
@@ -224,6 +237,9 @@ body {
   text-align: center;
   color: #ffffff;
   background-image: linear-gradient(to bottom right, #8b5cf6, #5b21b6);
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 60px #000;
 }
 
 .contact-section h2 {
